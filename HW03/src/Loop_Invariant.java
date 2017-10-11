@@ -17,6 +17,20 @@ public class Loop_Invariant {
         System.out.print("index를 찾을 수를 입력해 주세요 : ");
         search_number=scanner.nextInt();
         System.out.println();
-        System.out.println(search_number);
+
+        //Precondition
+        int start=0;
+        int end=count;
+        int mid=(start+end)/2;
+
+        while(arr[mid]!=search_number){
+            if(arr[mid]>search_number){
+                end=mid-1;
+            }else{
+                start=mid+1;
+            }
+            mid=(start+end)/2;
+        }
+        System.out.printf("%d의 index는 %d 입니다.\n",search_number,mid);
     }
 }
