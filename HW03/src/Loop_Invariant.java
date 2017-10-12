@@ -18,12 +18,11 @@ public class Loop_Invariant {
         search_number=scanner.nextInt();
         System.out.println();
 
-        //Precondition
         int start=0;
         int end=count;
         int mid=(start+end)/2;
 
-        while(arr[mid]!=search_number){
+        while(arr[mid]!=search_number && start!=end){
             if(arr[mid]>search_number){
                 end=mid-1;
             }else{
@@ -31,6 +30,10 @@ public class Loop_Invariant {
             }
             mid=(start+end)/2;
         }
-        System.out.printf("%d의 index는 %d 입니다.\n",search_number,mid);
+        if(arr[mid]==search_number) {
+            System.out.printf("%d의 index는 %d 입니다.\n", search_number, mid);
+        }else{
+            System.out.printf("%d는 배열에 존재하지 않습니다.\n",search_number);
+        }
     }
 }
