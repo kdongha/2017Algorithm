@@ -9,10 +9,10 @@ public class Counting_Inversions {
     public static void main(String[] args) throws IOException {
         final int MAX = 10000;
         int[] array = new int[MAX];
-        Scanner scanner = new Scanner(new File("HW04/data05_inversion_01.txt"));    //22
+        //Scanner scanner = new Scanner(new File("HW04/data05_inversion_01.txt"));              //22
         //Scanner scanner = new Scanner(new File("HW04/data05_inversion_02.txt"));              //0
         //Scanner scanner = new Scanner(new File("HW04/data05_inversion_03.txt"));              //66
-        //Scanner scanner = new Scanner(new File("HW04/data05_inversion_04.txt"));              //29
+        Scanner scanner = new Scanner(new File("HW04/data05_inversion_04.txt"));              //29
         int count = 0;
 
         while (scanner.hasNext()) {

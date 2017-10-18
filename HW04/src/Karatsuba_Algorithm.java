@@ -17,7 +17,7 @@ public class Karatsuba_Algorithm {
     private static long karatsuba(long x, long y) {
         int x_size = String.valueOf(x).length();
         int y_size = String.valueOf(y).length();
-        if (x_size < 4 || y_size < 4) {
+        if (x_size < 4 || y_size < 4 || x_size != y_size) {
             return x * y;
         } else {
             long x1 = Long.parseLong(String.valueOf(x).substring(0, x_size / 2));
