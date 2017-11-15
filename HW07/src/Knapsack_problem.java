@@ -50,6 +50,7 @@ public class Knapsack_problem {
                 j -= value_table[i - 1][1];
             }
         }
+        System.out.println();
     }
 
 }
