@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/2017Algorithm.iml" filepath="$PROJECT_DIR$/2017Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW02/HW02.iml" filepath="$PROJECT_DIR$/HW02/HW02.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW03/HW03.iml" filepath="$PROJECT_DIR$/HW03/HW03.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW04/HW04.iml" filepath="$PROJECT_DIR$/HW04/HW04.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW05/HW05.iml" filepath="$PROJECT_DIR$/HW05/HW05.iml" />
@@ -11,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/HW08/HW08.iml" filepath="$PROJECT_DIR$/HW08/HW08.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW09/HW09.iml" filepath="$PROJECT_DIR$/HW09/HW09.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW10/HW10.iml" filepath="$PROJECT_DIR$/HW10/HW10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW11/HW11.iml" filepath="$PROJECT_DIR$/HW11/HW11.iml" />
     </modules>
   </component>
 </project>
